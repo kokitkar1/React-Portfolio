@@ -27,9 +27,9 @@ const Contact = () => {
                             <h4 className='heading text-center'>Connect with 
                             <div className="head mt-2">
 
-                                <ImLinkedin color='darkblue' size={30} className='ms-2' />
-                                <ImGithub color='black' size={30} className='ms-2' />
-                                <ImFacebook2 color='darkblue' size={30} className='ms-2' />
+                                <ImLinkedin color='darkblue' size={30} className='ms-2 iconcontact' />
+                                <ImGithub color='black' size={30} className='ms-2 iconcontact' />
+                                <ImFacebook2 color='darkblue' size={30} className='ms-2 iconcontact' />
                             </div>
                             </h4>
                             </div>

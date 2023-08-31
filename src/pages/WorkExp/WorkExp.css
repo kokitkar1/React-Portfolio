@@ -33,3 +33,8 @@
     font-family:'Times New Roman', Times, serif;
 
 }
+
+#dark .vertical-timeline-element--work{
+    /* background-color: black; */
+    filter: brightness(50%);
+}

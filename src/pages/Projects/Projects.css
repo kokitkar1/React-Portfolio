@@ -119,3 +119,9 @@
 .pro{
     margin-bottom: 30px;
 }
+
+
+#dark .card{
+        filter: brightness(50%) !important;
+        color: white;
+}

@@ -29,6 +29,10 @@
     margin-top: 10px;
 }
 
+#dark .sidebar{
+    filter: brightness(50%);
+}
+
 /* ==== MOBILE VIEW ========== */
 @media (max-width: 600px) {
     .sidebar {

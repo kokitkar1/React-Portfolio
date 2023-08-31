@@ -110,8 +110,8 @@ input,textarea{
     background-color: rgb(40, 39, 39);
     color: white;
 }
-/* 
-#dark .contact h2{
-    columns: white;
 
-} */
+#dark .iconcontact{
+    background-color: white;
+    border-radius: 5px;
+}
