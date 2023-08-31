@@ -1,0 +1,12 @@
+.footer{
+    background-color: rgb(27, 37, 34);
+    color: white;
+    margin-bottom: none;
+    padding: none;
+}
+
+.footer hr{
+    color: rgb(33, 213, 159);
+    width: 400px;
+    margin: 10px auto;
+}

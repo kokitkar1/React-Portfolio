@@ -1,0 +1,29 @@
+.education{
+    padding: 10px;
+    margin: 50px 0px;
+    margin-left: 110px;
+    /* padding-left: 100px; */
+    /* background-color: rgba(128, 128, 128, 0.092); */
+    border-radius: 50px;
+}
+
+.education hr{
+    color: rgb(1, 11, 8);
+    width: 400px;
+    margin: 10px auto;
+}
+
+.education h2{
+    color: rgb(13, 148, 105);
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.education p{
+    font-family: cursive;
+}
+
+.education .vertical-timeline-element-title{
+    color:  rgb(4, 92, 64);
+    font-family:'Times New Roman', Times, serif;
+}

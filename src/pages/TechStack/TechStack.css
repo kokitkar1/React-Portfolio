@@ -1,0 +1,40 @@
+.techstack{
+    padding-left: 100px;
+    margin-top: 60px;
+    /* font-family: cursive; */
+}
+
+.techstack hr{
+    color: rgb(1, 11, 8);
+    width: 400px;
+    margin: 10px auto;
+}
+
+.techstack h2{
+    color: rgb(13, 148, 105);
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.techstack p{
+    font-family: cursive;
+}
+
+.techstack .card{
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.techstack .card:hover{
+    background-color: rgb(67, 209, 164);
+    color: white;
+    transition: 1s;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.techstack .tech-icon{
+    font-size: 4rem;
+    margin-right: 10px;
+}

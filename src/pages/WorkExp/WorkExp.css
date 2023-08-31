@@ -1,0 +1,35 @@
+.experience{
+    padding: 10px;
+    margin: 50px 0px;
+    margin-left: 110px;
+    /* padding-left: 100px; */
+    background-color: rgba(128, 128, 128, 0.092);
+    border-radius: 50px;
+}
+
+.experience hr{
+    color: rgb(1, 11, 8);
+    width: 400px;
+    margin: 10px auto;
+}
+
+.experience h2{
+    color: rgb(13, 148, 105);
+    font-weight: bold;
+    font-family: cursive;
+}
+.experience h6{
+    color: rgb(3, 12, 9);
+    /* font-weight: bold; */
+    font-family: cursive;
+}
+
+.desc{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.experience .vertical-timeline-element-title{
+    color:  rgb(208, 118, 15);
+    font-family:'Times New Roman', Times, serif;
+
+}
