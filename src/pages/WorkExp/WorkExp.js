@@ -1,23 +1,26 @@
 import React from 'react'
 import './WorkExp.css'
-import {SiReact} from 'react-icons/si'
-import {SiJavascript} from 'react-icons/si'
 import {FaNode} from 'react-icons/fa'
 import {VerticalTimeline,VerticalTimelineElement,} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import Jump from 'react-reveal/Jump';
+
 
 const WorkExp = () => {
   return (
     <>
         <div className="container" id='workexp'>
         <div className="container experience">
+          <Jump>
           <h2 className="col-12 mt-3 mb-1 text-center">Experience</h2>
           <hr />
           <p className="pb-3 text-center">
             👉 Including programming Languages, Frameworks, Database, Front-End
             and Back-End Tools and API
           </p>
+          </Jump>
 
+          
           <VerticalTimeline lineColor="gray">
             <VerticalTimelineElement
               className="vertical-timeline-element--work"

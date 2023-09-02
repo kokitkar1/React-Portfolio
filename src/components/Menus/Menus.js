@@ -1,5 +1,7 @@
 import React from 'react'
 import './Menus.css'
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 import {FcAbout, FcBiotech, FcBusinessContact, FcHome, FcPortraitMode, FcReadingEbook, FcVideoProjector} from 'react-icons/fc'
 import { Link} from 'react-scroll'
 
@@ -11,9 +13,12 @@ const Menus = ({toggle}) => {
     {toggle ? 
     (
       <>
+      <Zoom>
         <div className="navbar-profile-pic">
           <img src="/images/pic3.png" alt="Profile pic" />
         </div>
+      </Zoom>
+      <Fade left>
         <div className="nav-items">
           <div className="nav-item">
             <div className="nav-link"> <Link to="home" spy={true}  smooth={true} offset={-100} duration={100} > <FcHome title='Home'/> Home</Link> </div>
@@ -37,12 +42,13 @@ const Menus = ({toggle}) => {
             <div className="nav-link"> <Link to="contact" spy={true}  smooth={true} offset={-100} duration={100} > <FcBusinessContact title='Contact' />Contact</Link></div>
           </div>
         </div>
+        </Fade>
       </>
     )
     :
     (
       <>
-
+        <Fade right>
         <div className="nav-items">
           <div className="nav-item">
             <div className="nav-link"> <Link to="home" spy={true}  smooth={true} offset={-100} duration={100} > <FcHome title='Home'/></Link></div>
@@ -66,7 +72,7 @@ const Menus = ({toggle}) => {
             <div className="nav-link"> <Link to="contact" spy={true}  smooth={true} offset={-100} duration={100} > <FcBusinessContact title='Contact' /></Link></div>
           </div>
         </div>
-
+        </Fade>
       </>
     )
     }

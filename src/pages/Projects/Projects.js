@@ -1,14 +1,23 @@
 import React from 'react'
 import './Projects.css'
+import Swing from 'react-reveal/Swing';
+import Fade from 'react-reveal/Fade';
+
+
 
 const Projects = () => {
   return (
     <>
     <div className="container project" id='project'>
+        <Fade top>
     <h2 className='col-12 mt-3 mb-1 text-center'>Project Portfolio</h2>
+        </Fade>
         <hr />
+        <Fade bottom>
         <p className='pb-3 text-center'>👉 My projects portfolio with live links and Source code</p>
+        </Fade>
         <div className="row" id='ads'>
+        <Swing>
             <div className="col-md-4 pro">
                 <div className="card rounded">
                     <div className="card-image">
@@ -30,7 +39,8 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-
+            </Swing>
+            <Swing>
             <div className="col-md-4 pro">
                 <div className="card rounded">
                     <div className="card-image">
@@ -52,7 +62,8 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-
+            </Swing>
+            <Swing>
             <div className="col-md-4 pro">
                 <div className="card rounded">
                     <div className="card-image">
@@ -74,6 +85,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            </Swing>
             
         </div>
     </div>
