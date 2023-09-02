@@ -1,5 +1,5 @@
 .home-container{
-    height: 300px;
+    height: 270px;
     color: white;
     margin-left: 110px;
 }
@@ -60,3 +60,21 @@
     cursor: pointer;
     z-index: 1;
   }
+
+
+  /* ==== MOBILE VIEW ========== */
+@media (max-width: 600px) {
+  .home-container {
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .home-container h2 {
+    font-size: 24px;
+  }
+
+  .home-container h1 {
+    font-size: 24px;
+  }
+}

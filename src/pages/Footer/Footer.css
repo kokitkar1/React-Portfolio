@@ -3,12 +3,13 @@
     color: black;
     margin-bottom: none;
     padding: none;
-    margin-left: 200px !important;
+    /* margin-left: 200px !important; */
+    align-items: center !important;
 }
 
 .footer hr{
     color: rgb(33, 213, 159);
-    width: 100%;
+    width: 1000px;
     margin: 10px auto;
 }
 
@@ -16,3 +17,24 @@
 filter: brightness(50%);
 color: white;
 }
+
+
+  /* ==== MOBILE VIEW ========== */
+  @media (max-width: 600px) {
+    .footer {
+      padding: 0px;
+      margin: 0px;
+      margin-top: 20px;
+      justify-content: center;
+    }
+    
+  
+    .foot {
+      align-items: center;
+    }
+
+    .footer hr{
+        width: 400px;
+    }
+
+  }

@@ -125,3 +125,19 @@
         filter: brightness(50%) !important;
         color: white;
 }
+
+
+  /* ==== MOBILE VIEW ========== */
+  @media (max-width: 600px) {
+    .project {
+      padding: 15px;
+      margin: 0px;
+      margin-top: 50px;
+    }
+    
+  
+    .project h2 {
+      font-size: 30px;
+    }
+
+  }

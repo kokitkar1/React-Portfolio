@@ -44,3 +44,20 @@
     color: white;
     border: 1px solid white;
 }
+
+
+
+  /* ==== MOBILE VIEW ========== */
+  @media (max-width: 600px) {
+    .techstack {
+      padding: 15px;
+      margin: 0px;
+      margin-top: 50px;
+    }
+    
+  
+    .techstack h2 {
+      font-size: 30px;
+    }
+
+  }

@@ -27,3 +27,20 @@
     color:  rgb(4, 92, 64);
     font-family:'Times New Roman', Times, serif;
 }
+
+
+
+  /* ==== MOBILE VIEW ========== */
+  @media (max-width: 600px) {
+    .education {
+      padding: 5px;
+      margin: 0px;
+      margin-top: 30px;
+    }
+    
+  
+    .education h2 {
+      font-size: 30px;
+    }
+
+  }

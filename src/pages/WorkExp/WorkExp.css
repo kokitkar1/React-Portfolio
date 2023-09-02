@@ -38,3 +38,20 @@
     /* background-color: black; */
     filter: brightness(50%);
 }
+
+
+  /* ==== MOBILE VIEW ========== */
+  @media (max-width: 600px) {
+    .experience {
+      padding: 15px;
+      margin: 0px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    
+  
+    .experience h2 {
+      font-size: 30px;
+    }
+
+  }

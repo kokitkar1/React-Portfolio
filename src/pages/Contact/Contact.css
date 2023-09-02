@@ -115,3 +115,20 @@ input,textarea{
     background-color: white;
     border-radius: 5px;
 }
+
+
+  /* ==== MOBILE VIEW ========== */
+  @media (max-width: 600px) {
+    .contact {
+      padding: 5px;
+      margin: 0px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    
+  
+    .contact h2 {
+      font-size: 30px;
+    }
+
+  }
