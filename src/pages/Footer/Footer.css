@@ -1,12 +1,18 @@
 .footer{
-    background-color: rgb(27, 37, 34);
-    color: white;
+    /* background-color: #4b4b4d; */
+    color: black;
     margin-bottom: none;
     padding: none;
+    margin-left: 200px !important;
 }
 
 .footer hr{
     color: rgb(33, 213, 159);
-    width: 400px;
+    width: 100%;
     margin: 10px auto;
+}
+
+#dark .footer{
+filter: brightness(50%);
+color: white;
 }

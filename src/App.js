@@ -8,6 +8,7 @@ import TechStack from "./pages/TechStack/TechStack.js";
 import WorkExp from "./pages/WorkExp/WorkExp.js";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext.js";
+import MobileView from "./components/MobileView/MobileView.js";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
         <div id={theme}>
+        <MobileView/>
         <Layout/>
         <About/>
         <Education/>
